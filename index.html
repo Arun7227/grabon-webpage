@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/titleicon.jpg" type="image/x-icon">
+    <title>GRABON</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid   flex-column">
+                <div class="navbar_left w-100 row ">
+                    <div class="col-8">
+                        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#mynav">
+                            <i class="navbar-toggler-icon"></i></button>
+                            <a href="#" class="navbar-brand">
+                                <img src="./images/logo.jpg" class=" img-fluid" alt="logo" >
+                            </a>
+                            <input type="search" name='mastersearch' id='msearch' placeholder=" search here..." class=" rounded mx-1 mastersearch ">
+                    </div>
+                    <div class="col-4 d-flex justify-content-center align-items-center">
+                        <span class="me-4 position-relative p-2"><i class="far f-2em fa-bell"></i><small class="badge bell-badge btn-danger rounded-100 position-absolute top-0 end-0">2</small></span>
+                       
+                        <i class="fas fa-search mobilesearch f-2em "></i>
+                        <button class="btn  login">login/signup</button>
+                    </div>
+                   
+                </div>
+                
+
+                      <div class="offcanvas offcanvas-start" id="mynav">
+                          <div class="offcanvas-header bg-primary card">
+                             
+                                  <div class="row">
+                                      <div class="col-6">
+                                        <img src="./images/thirdrowcard/third card.png" alt="dd" class="img-fluid">
+                                      </div>
+                                      <div class="col-6   justify-content-center align-items-center  flex-column text-white text-capitalize sidebar-card-div">
+                                          <span>grab best</span>
+                                          <span>coupon & details</span>
+                                          <a href="#" class="text-white">login/signup</a>
+                                      </div>
+                                  </div>
+                                  <button type="button" class="btn btn-close btn-white me-1 mt-1" data-bs-dismiss="offcanvas"></button>
+
+                          </div>
+
+                          <div class="offcanvas-body">
+                              <div class="navbar-nav d-flex justify-content-between ">
+                                  <div class="d-flex sidebar-left">
+                                    <li class="nav-item"><a href="#" class="nav-link">stores</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">categories</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">indulge<span class="ms-1 badge text-white bg-primary rounded-pill">new</span></a></li>
+                                  </div>
+                                    <div class="sidebar-right" >
+
+                                        <li class="nav-item"><a href="#" class="nav-link">deal of the day</a></li>
+                                    </div>                    
+                                </div>
+                          </div>
+                          <div class="offcanvas-footer">
+                              <span></span>
+                          </div>
+                      </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container ptop">
+        
+            <div class="carousel slide d-flex justify-content-center align-items-center w-100 " id="slidingimg1" data-bs-ride="carouse">
+                <div class="carousel-indicators position-absolute">
+                    <button type="button" data-bs-target="#slidingimg1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#slidingimg1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#slidingimg1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#slidingimg1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#slidingimg1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#slidingimg1" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#slidingimg1" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                  </div>
+                <div class="carosuel-inner w-100">
+                   <div class="carousel-item active">
+                       <img src="./images/carosel images/c1.jpg" alt="c1" class="w-100   d-block">
+                   </div>
+                   <div class="carousel-item">
+                       <img src="./images/carosel images/c2.jpg" alt="c2" class="w-100 d-block">
+                   </div>
+                   <div class="carousel-item">
+                       <img src="./images/carosel images/c3.jpg" alt="c3" class="w-100 d-block">
+                   </div>
+                   <div class="carousel-item">
+                       <img src="./images/carosel images/c4.jpg" alt="c4" class="w-100 d-block">
+                   </div>
+                   <div class="carousel-item">
+                       <img src="./images/carosel images/c5.jpg" alt="c5" class="w-100 d-block">
+                   </div>
+                   <div class="carousel-item">
+                       <img src="./images/carosel images/c6.jpg" alt="c6" class="w-100 d-block">
+                   </div>
+                   <div class="carousel-item">
+                       <img src="./images/carosel images/c7.jpg" alt="c7" class="w-100 d-block">
+                   </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#slidingimg1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">previous</span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#slidingimg1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">next</span>
+                </button>
+
+            </div>
+        </div>
+       <div class="container effects">
+        <div class="msg mb-100 mt-5">
+
+            <h3 class="rounuded-100">India's Leading Coupons & Deals Marketplace</h3>
+        </div>
+       
+
+       </div>
+       <div class="container bg-second ">
+           <h4 class="popular-heading text-capitalize p-3">popular offer of the day</h4>
+           <div class="row card-deck ">
+               <div class="col-12 col-md-3 my-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src='./images/first row cards/card11.jpg'class="card-img-top"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between text-uppercase" >
+                            <h6 class="card-title">25% off</h6>
+                          <span class="badge bg-success d-flex align-items-center justify-content-between">exclusive</span>
+                        </div>
+                        <p class="card-text">
+                          Flat 25% OFF On All Medicines (All Users)
+                        </p>
+                    </div>
+                    </div>
+               </div>
+               <div class="col-12 col-md-3 my-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src='./images/first row cards/card22.jpg'class="card-img-top"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between text-uppercase" >
+                            <h6 class="card-title">rs.100 off</h6>
+                          <span class="badge bg-success d-flex align-items-center justify-content-between">exclusive</span>
+                        </div>
+                        <p class="card-text">
+                            Special Offer - ₹100 Off + ₹200 Cashback Offer | New Users
+                        </p>
+                    </div>
+</div>
+               </div>
+               <div class="col-12 col-md-3 my-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src='./images/first row cards/card 33.jpg'class="card-img-top"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between text-uppercase" >
+                            <h6 class="card-title">45% off</h6>
+                          <span class="badge bg-success d-flex align-items-center justify-content-between">exclusive</span>
+                        </div>
+                        <p class="card-text">
+                            Salary Day Sale: Upto 40% OFF on SmartGRID Mattress 
+                        </p>
+                    </div>
+</div>
+
+               </div>
+               <div class="col-12 col-md-3 my-2">
+                <div class="card">
+                    <div class="card-header">
+                        <img src='./images/first row cards/card44.jpg'class="card-img-top"/>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between text-uppercase" >
+                            <h6 class="card-title">rs.25 off</h6>
+                          <span class="badge bg-success d-flex align-items-center justify-content-between">exclusive</span>
+                        </div>
+                        <p class="card-text">
+                          New User Offer - Flat Rs 25 Off On First Ride (Use Code GRB50)
+                        </p>
+                    </div>
+                    </div>
+               </div>
+             </div>
+             
+       </div>
+       <div class="container mt-4 p-2">
+        <h4 class="popular-heading text-capitalize p-3">popular stores</h4>
+        <div class="row">
+            <div class="col-12 col-md-3 d-sm-flex mb-2">
+                <div class="card popular_store-card1 "style="height:300px;">
+                    <div class="card-header  text-center mt-3 store-card-header" style="background: inherit;">
+                        <h6 class="card-title pharama-heading text-secondary">featured store of this month</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="./images/popular stores/pharmeasy-logo.jpg" class="img-fluid " alt="">
+                    </div>
+                    <div class="card-footer d-none d-md-block  text-center" >
+                        <small class="card-text text-seconadry" style="border: green solid 1px;">64 coupona|19 offers available</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+                
+            <div class="carousel carousel-dark slide d-flex overflow-hidden justify-content-center align-items-center w-100 " id="slidingimg3" >
+                <div class="carosuel-inner w-100">
+                   <div class="carousel-item w-100 active">
+                       <div class="row">
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/make my trip.jpg" class="img-fluid  h-100 w-100 " alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/amazon.jpg" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/dominos.png" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/flipkart.png" class="img-fluid  h-100 w-100 " alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/myntra.png" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/oyo.png" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/paytm.jpg" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/pharmeasy-logo.jpg" class="img-fluid  h-100 w-100 " alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/rapido.png" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/tata cliq.png" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/uber.png" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/booking.png" class="img-fluid  h-100 w-100" alt="">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="carousel-item w-100 ">
+                       <div class="row">
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/addidas.png" class="img-fluid h-100 w-100 " alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/big.png" class="img-fluid h-100 w-100 " alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/bookmyshow.jpg" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/chanel.png" class="img-fluid h-100 w-100 " alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/hp.png" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/dkny.png" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/moncler.png" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/nike.webp" class="img-fluid h-100 w-100 " alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/nokia.jpg" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/pepsi.jpg" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/second slide/rolex.png" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                           <div class="col-3 h-25 w-25">
+                               <img src="./images/popular stores/myntra.png" class="img-fluid h-100 w-100" alt="">
+                           </div>
+                       </div>
+                   </div>
+                
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#slidingimg3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon text-dark"></span>
+                    <span class="visually-hidden">previous</span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#slidingimg3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon text-dark"></span>
+                    <span class="visually-hidden">next</span>
+                </button>
+
+            </div>
+            </div>
+        </div>
+       </div>
+
+       <div class="bg-second pb-2 my-4">
+           <div class="container mt-3 effects">
+            <h4 class="popular-heading text-capitalize p-3">Today's Top Coupons & Offers</h4>
+            <div class="row">
+                <div class="col-12 col-md-2 bg-white p-4" style="margin-top: 33px;">
+                  <ul class="navbar-nav coupon-ul ">
+                      <li class="coupon-list  list-item "><i class="fab fa-accusoft me-2 mb-2"></i><span>most used</span></li>
+                      <li class="coupon-list list-item"><i class="fas fa-globe me-2 mb-2"></i><span>travel</span></li>
+                      <li class="coupon-list list-item"><i class="fas fa-bolt me-2 mb-2"></i><span>rechare</span></li>
+                      <li class="coupon-list list-item"><i class="fas fa-tshirt me-2 mb-2"></i><span>fashion</span></li>
+                      <li class="coupon-list list-item"><i class="fas fa-utensils me-2 mb-2"></i><span>food</span></li>
+                      <li class="coupon-list list-item"><i class="fas fa-charging-station me-2 mb-2"></i><span>electronics</span></li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-10 p-3 offer-card">
+                   <div class="row card-deck ">
+                         <div class="col-md-4 col-12 my-3">
+                            <div class="card ">
+                                <div class="card-header mt-2 bg-white d-flex justify-content-between "style="border: none;">
+                                    <div class="bg-secondary w-50 h-100 text-center">
+                                        <h2 class="text-uppercase p-4 p-md-1">mega sale</h2>
+                                    </div>
+                                    <div class="w-25 h-25">
+                                        <img src="./images/popular stores/dominos.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="card-body" >
+                                    <p class="card-text">The Fitness Revolution Sale - Up To 60% + Extra 10% OFF</p>
+                                </div>
+                                <div class="card-footer mb-2 bg-white " style="border: none;">
+                                    <small class="text-primary"> See All Healthkart Offers <span class="badge bg-primary  ms-2 p-1" style="border-radius: 100%;">></span></small>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-4 col-12 my-3">
+                            <div class="card ">
+                                <div class="card-header mt-2 bg-white d-flex justify-content-between "style="border: none;">
+                                    <div class="bg-secondary  h-100 text-center" style="width:150px">
+                                        <h2 class="text-uppercase p-4 p-md-1">buy 1 get 1 free</h2>
+                                    </div>
+                                    <div class="w-25 h-25">
+                                        <img src="./images/popular stores/myntra.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="card-body" >
+                                    <p class="card-text">DAMN HOT Sale: Buy 1 Get 1 Free | All Users</p>
+                                </div>
+                                <div class="card-footer mb-2 bg-white " style="border: none;">
+                                    <small class="text-primary"> See All fashion Offers <span class="badge bg-primary  ms-2 p-1" style="border-radius: 100%;">></span></small>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-4 col-12 my-3">
+                            <div class="card ">
+                                <div class="card-header mt-2 bg-white d-flex justify-content-between "style="border: none;">
+                                    <div class="bg-secondary w-50 h-100 text-center">
+                                        <h2 class="text-uppercase p-4 p-md-1">rs.130 off</h2>
+                                    </div>
+                                    <div class="w-25 h-25">
+                                        <img src="./images/popular stores/oyo.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="card-body" >
+                                    <p class="card-text">Flat ₹80 OFF + ₹50 Cashback On ₹949 (New Users)</p>
+                                </div>
+                                <div class="card-footer mb-2 bg-white " style="border: none;">
+                                    <small class="text-primary"> See All oyohomes offers <span class="badge bg-primary  ms-2 p-1" style="border-radius: 100%;">></span></small>
+                                </div>
+                            </div>
+                         </div>
+                   </div>
+                  
+                   <div class="row card-deck  mt-3">
+                    <div class="col-md-4 col-12 my-3">
+                       <div class="card ">
+                           <div class="card-header mt-2 bg-white d-flex justify-content-between "style="border: none;">
+                               <div class="bg-secondary w-50 h-100 text-center">
+                                   <h2 class="text-uppercase p-4 p-md-1">20% off</h2>
+                               </div>
+                               <div class="w-25 h-25">
+                                   <img src="./images/popular stores/pharmeasy-logo.jpg" alt="" class="img-fluid">
+                               </div>
+                           </div>
+                           <div class="card-body" >
+                               <p class="card-text">Flat 20% Off + Upto Rs 600 Cashback on 1st Order</p>
+                           </div>
+                           <div class="card-footer mb-2 bg-white " style="border: none;">
+                               <small class="text-primary">See All PharmEasy Offers <span class="badge bg-primary  ms-2 p-1" style="border-radius: 100%;">></span></small>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4 col-12 my-3">
+                       <div class="card ">
+                           <div class="card-header mt-2 bg-white d-flex justify-content-between "style="border: none;">
+                               <div class="bg-secondary  h-100 text-center" style="width:150px">
+                                   <h2 class="text-uppercase p-4 p-md-1">rs.1000 off</h2>
+                               </div>
+                               <div class="w-25 h-25">
+                                   <img src="./images/popular stores/make my trip.jpg" alt="" class="img-fluid">
+                               </div>
+                           </div>
+                           <div class="card-body" >
+                               <p class="card-text">Domestic Flights - Grab ₹1000 OFF + Extra ₹800 SuperCash</p>
+                           </div>
+                           <div class="card-footer mb-2 bg-white " style="border: none;">
+                               <small class="text-primary"> See All MakeMyTrip Offers <span class="badge bg-primary  ms-2 p-1" style="border-radius: 100%;">></span></small>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="col-md-4 col-12 my-3">
+                       <div class="card ">
+                           <div class="card-header mt-2 bg-white d-flex justify-content-between "style="border: none;">
+                               <div class="bg-secondary w-50 h-100 text-center">
+                                   <h2 class="text-uppercase p-4 p-md-1">10% off</h2>
+                               </div>
+                               <div class="w-25 h-25">
+                                   <img src="./images/popular stores/rapido.png" alt="" class="img-fluid">
+                               </div>
+                           </div>
+                           <div class="card-body" >
+                               <p class="card-text">Grab Flat 10% Off On All trips (All Users)</p>
+                           </div>
+                           <div class="card-footer mb-2 bg-white " style="border: none;">
+                               <small class="text-primary"> See All rapido offers <span class="badge bg-primary  ms-2 p-1" style="border-radius: 100%;">></span></small>
+                           </div>
+                       </div>
+                    </div>
+              </div>
+                </div>
+            </div>
+            <div class="my-4 text-center">
+                <a href="#" class="btn btn-outline-secondary " style="border: black solid 1px;">show more</a>
+            </div>
+           </div>
+           
+       </div>
+       
+
+       <div class="container my-4" style="background-color: #e5f6ff ;">
+
+            <div class="card  " style="background: inherit;">
+                <div class="row">
+                    <div class="col-12 col-md-8 text-center">
+                        <div class="card-header" style="border: none; background: inherit;">
+                            <h1 class="my-4 p-1 " style="font-size: 25px;;">Get The Latest & Best Coupon/Offer Alerts</h1>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text" style="width: 60%;margin: 0 auto;">35,00,000+ Subscriptions Across India! & Counting! Subscribe to have new coupon lists delivered directly to your inbox</p>
+                        </div>
+                        <div class="card-footer btn-group w-75" style="border: none; background: inherit;">
+                             <input style="border-radius: 5px;outline: none;" type="email" placeholder="Enter your email" id="emmail" name="emial" class="w-75"/ >
+                             <button class="btn text-white" style="background: rgb(112, 187, 0);" class="w-25">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 d-none d-md-block">
+                        <img src="./images/thirdrowcard/third card.png" class="img-fluid " alt="">
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <hr>
+
+       <div class="container my-4">
+
+           <div class="d-flex justify-content-between align-items-center px-2">
+            <h4 class="popular-heading text-capitalize p-3">deal of the day</h4>
+            <a href="#" style="border: black 1px solid;" class="btn">view more details <span class="badge bg-success p-2"style="border-radius:100%">></span></a>
+           </div>
+
+           <div class="row">
+               <div class="col-12 col-md-6 col-lg-3 my-2">
+                   <div class="card deal_card">
+                       <div class="card-header position-relative" style="border:none">
+                           <img src="./images/forthrow/fcard1.jpg" class="img-fluid card-img-top" alt="c23" srcset="">
+                           <span class="badge px-2 position-absolute left-0 top-2 text-capitalize" style="background: rgb(50, 99, 0);left:0;top: 35px">20% off</span>
+                       </div>
+                       <div class="card-body">
+                           <h6 class="card-title text-muted text-capitalize py-1">wowfas</h6>
+                           <p class="card-text">MONTBLAZE 100% Acrylic Sweater Color Green</p>
+                           <h2 class="text-dark text-uppercase py-1">rs.779</h2>
+                           <del class="text-muted">rs.1090</del>
+                       </div>
+
+                   </div>
+               </div>
+               <div class="col-12 col-md-6 col-lg-3 my-2">
+                   <div class="card deal_card">
+                <div class="card-header position-relative" style="border:none">
+                    <img src="./images/forthrow/fcard2.png" class="img-fluid card-img-top" alt="c23" srcset="">
+                    <span class="badge px-2 position-absolute left-0 top-2 text-capitalize" style="background: rgb(50, 99, 0);left:0;top: 35px">60% off</span>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title text-muted text-capitalize py-1">myntra</h6>
+                    <p class="card-text">Bombay Shaving Company Skin Care & Beard Care Gift set</p>
+                    <h2 class="text-dark text-uppercase py-1">rs.565</h2>
+                    <del class="text-muted">rs.1418</del>
+                </div>
+
+            </div>
+        </div>
+               <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="card deal_card">
+                    <div class="card-header position-relative" style="border:none">
+                        <img src="./images/forthrow/fcard3.png" class="img-fluid card-img-top" alt="c23" srcset="">
+                        <span class="badge px-2 position-absolute left-0 top-2 text-capitalize" style="background: rgb(50, 99, 0);left:0;top: 35px">20% off</span>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title text-muted text-capitalize py-1">myntra</h6>
+                        <p class="card-text">MIRAGGIO Women Maroon Croc-Textured Handheld Bag</p>
+                        <h2 class="text-dark text-uppercase py-1">rs.2499</h2>
+                        <del class="text-muted">rs.4999</del>
+                    </div>
+
+                </div>
+               </div>
+               <div class="col-12 col-md-6 col-lg-3 my-2">
+                <div class="card deal_card">
+                    <div class="card-header position-relative" style="border:none">
+                        <img src="./images/forthrow/fcard4.png" class="img-fluid card-img-top" alt="c23" srcset="">
+                        <span class="badge px-2 position-absolute  text-capitalize" style="background: rgb(50, 99, 0);left:0;top: 35px;">20% off</span>
+                    </div>
+                    <div class="card-body" style="padding-bottom:40px;">
+                        <h6 class="card-title text-muted text-capitalize py-1">h&m</h6>
+                        <p class="card-text">Pile-lined parka</p>
+                        <h2 class="text-dark text-uppercase py-1">rs.2499</h2>
+                        <del class="text-muted">rs.3999</del>
+                    </div>
+
+                </div>
+               </div>
+           </div>
+
+       </div>
+
+       <div class="container my-4">
+        <h4 class="popular-heading text-capitalize p-3">popular categories</h4>
+           <div class="row categories-row ">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item p-2"><a href="#" class="nav-link">Flight</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">medicines</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link text-uppercase">ott</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">food</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">recharge</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">labtest</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item p-2"><a href="#" class="nav-link text-white">fashion</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">bus</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link text-uppercase">hosting</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">lingerie</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">utility bill payments</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">eyewear</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item p-2"><a href="#" class="nav-link">electronic</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">education</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link text-uppercase">pizza</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">pizza</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">entertainment</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">flowers</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <ul class="navbar-nav text-capitalize">
+                    <li class="nav-item p-2"><a href="#" class="nav-link">gloceries</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">DTH recharge</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link text-uppercase">hotel</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">service</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">bike rentals</a></li>
+                    <li class="nav-item p-2"><a href="#" class="nav-link">jewellery</a></li>
+                </ul>
+            </div>
+           </div>
+       </div>
+
+       <footer style="background: darkblue;">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-lg-3 col-12">
+                   <div class="card" style="background: inherit;">
+                       <div class="card-header footer-hide" style="border: none; background: inherit;">
+                           <img src="./images/footerlogo.png" class="img-fluid " alt="" srcset="">
+                       </div>
+                       <div class="card-body text-white ">
+                           <p class="card-text py-3 footer-hide">
+                            Striving towards making the world 
+                           </p>
+                           <div class="mb-3 d-flex justify-content-between align-items-center">
+                             <img src="./images/googleplay.png" class="h-50 w-50 me-1" alt="" srcset="">
+                             <img src="./images/appleplay.png" class="h-50 w-50" alt="" srcset="">
+                           </div>
+                       </div>
+                       <div class="card-footer icon-footer d-flex align-items-center justify-content-evenly mt-2 text-white" style="background: inherit;border-top: 1px solid white; ">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-lg-9 col-12">
+                    <div class="row footer_links">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <ul class="navbar-nav text-capitalize">
+                                <li class="footer-heading my-4 text-uppercase" style="color:rgb(137 255 19);font-size: 18px;font-weight:bold;">company</li>
+
+                                <li class="nav-item"><a href="#" class="nav-link">about us</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">privacy policy</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">terms of use</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">branding</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <ul class="navbar-nav text-capitalize">
+                                <li class="footer-heading my-4 text-uppercase" style="color:rgb(137 255 19);font-size: 18px;font-weight:bold;">general</li>
+
+                                <li class="nav-item"><a href="#" class="nav-link">partner with us</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">mobile apps</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">sitemap</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">write to us</a></li>
+                               
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <ul class="navbar-nav text-capitalize">
+                                <li class="footer-heading my-4 text-uppercase" style="color:rgb(137 255 19);font-size: 18px;font-weight:bold;">speciality pages</li>
+                                <li class="nav-item"><a href="#" class="nav-link">surge 2020</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">amazon pay offers</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">google pay offers</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">paypal offers</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">phonepe offers</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">festival offers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <ul class="navbar-nav text-capitalize">
+                                <li class="footer-heading my-4 text-uppercase" style="color:rgb(137 255 19);font-size: 18px;font-weight:bold;">more...</li>
+
+                                <li class="nav-item"><a href="#" class="nav-link">city offer</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">bannk offer</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">product deals</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">indian internet mobile stats</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">charities</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">gift cards</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./index.js"></script>
+<script src="./bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+body{
+font-family: sans-serif;
+height: 100vh;
+}
+.navbar-brand{
+
+}
+.mb-100{
+    margin-bottom: 100px !important;
+}
+.bg-second{
+    background: rgba(128 ,128, 128,0.1);
+}
+.login{
+    background-color: green !important;
+    color: white !important;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.mastersearch{
+   width:70%;
+   background: rgba(128 ,128, 128,0.1);
+   outline: none;
+   color: white;
+   padding: 5px;
+}
+ .ptop{
+margin-top: 20px;
+ }
+
+   
+.f-2em{
+    font-size: 2em;
+}
+.offcanvas-header{
+    position: relative;
+}
+.offcanvas-header .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    
+}
+.navbar-brand img{
+    height: 124px;
+    width: 128px;
+}
+.mobilesearch{
+    display: none !important;
+}
+/* sidebar */
+.offcanvas{
+    background: rgba(128 ,128, 128,0.1) !important;
+    width: 100% !important;
+}
+.offcanvas-body .navbar-nav{
+    width: 100%;
+    padding: 10px;
+}
+
+.sidebar-card-div{
+    display: flex;
+    
+}
+.offcanvas .sidebar-left .nav-item{
+    margin-right: 60px;
+    
+}
+.offcanvas .nav-link{
+    font-size: 20px !important;
+   font-weight: bold;
+}
+/* carousel */
+
+.carousel-indicators button{
+    width: 9px !important;
+    height: 8px !important;
+    border-radius: 100% !important;
+}
+/* msg */
+.msg{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.msg:before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: black;
+    z-index: -1;
+}
+
+.msg h3{
+    position: absolute;
+    padding: 5px;
+    border: black solid 1px;
+    width: 60%;
+    margin:0px auto;
+    border-radius: 30px;
+    text-align:center;
+    background:white ;
+}
+
+/**/
+.popular-heading{
+
+}
+.popular-heading:after{
+    content: '';
+    height: 3px;
+    width: 100px;
+    background:rgb(80, 133, 0) !important;
+    display: block;
+    margin-top: 17px;
+
+    
+}
+/*  */
+.offer-card h2{
+    font-size: 20px !important;
+}
+.offer-card .card{
+    border: none !important;
+    background: white !important;
+} 
+/*  */
+.coupon-list{
+    padding: 5px ;
+    margin-bottom: 20px;
+}
+.coupon-list:first-child{
+    color: rgb(101, 168, 0) !important;
+}
+.deal_card:hover{
+    border: rgb(2, 163, 2) 1px solid !important;
+}
+
+/*  */
+.categories-row a{
+color:black !important;
+}
+.categories-row a:hover{
+    text-decoration: underline;
+}
+
+/*  */
+
+.icon-footer i{
+margin-right: 5px;
+}
+/*  */
+.footer_links a{
+ color:white !important;
+
+}
+.footer_links a:hover{
+    text-decoration: underline;
+}
+
+.effects .card{
+    transition: .3s ease-in;
+}
+.effects .card:hover{
+    transform: translateY(-10px);
+}
+.card:hover{
+    cursor: pointer !important;
+}
+
+@media all and (max-width:992px){
+.mastersearch{
+     display: none !important;
+   
+     
+ }
+ .footer-hide{
+     display: none !important;
+ }
+ .login{
+     display: none !important;
+ }
+ .mobilesearch{
+   display: block !important;
+ }
+ .offcanvas{
+    background: white !important;
+    width: 70% !important;
+    
+}
+.offcanvas-body .navbar-nav{
+ 
+    padding: 5px;
+}
+.offcanvas .sidebar-left{
+    flex-direction: column !important;
+}
+.offcanvas .sidebar-right{
+    margin-top: 5px;
+    padding: 15px 0px;
+    border-top: black solid 1px ;
+}
+.offcanvas .sidebar-left .nav-item{
+    margin-right: 5px !important;
+    
+}
+}
+
+@media all and (max-width:443px){
+    .bell-badge{
+        font-size: 10px !important;
+    }
+    .f-2em{
+        font-size: 20px !important;
+    }
+    .pharama-heading{
+        font-size: 10px !important;
+    }
+    .store-card-header{
+        padding: 0 !important;
+        background: inherit !important;
+        border: none !important;
+    }
+}
+@media all and (max-width:390px){
+    .offcanvas{
+      
+        width: 80% !important;
+    }
+    .sidebar-card-div{
+      
+        display: flex !important;
+    }
+    .navbar-brand img{
+        width: 83px !important;
+    }
+}
+
+@media all and (max-width:443px){
+    .sidebar-card-div{
+      
+        display: unset !important;
+    }
+
+
+}
+@media all and (max-width:330px){
+    .offcanvas{
+      
+        width: 100% !important;
+    }
+}
+ @media all and (max-width:767px){
+    .popular_store-card1{
+        height: 60px !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+
+    }
+    .popular_store-card1 .card-body img{
+        height: 25% !important;
+        width: 25% !important;
+    }
+    .popular_store-card1 .card-header{
+        width: 30% !important;
+
+    }
+    ..popular_store-card1 .card-body{
+        width: 30% !important;
+    }
+    .coupon-ul{
+        flex-direction: row !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .coupon-list {
+        font-size: 10px;
+    }
+    .coupon-list span{
+        display: block;
+    }
+ }
+
+
